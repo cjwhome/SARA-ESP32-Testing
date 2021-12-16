@@ -17,7 +17,7 @@
   Please see LICENSE.md for full details
 
 */
-
+#include <Arduino.h>
 #include <IPAddress.h>
 
 #include <SparkFun_u-blox_SARA-R5_Arduino_Library.h> //Click here to get the library: http://librarymanager/All#SparkFun_u-blox_SARA-R5_Arduino_Library
