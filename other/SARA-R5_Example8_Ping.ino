@@ -76,7 +76,7 @@ void setup()
   Serial.begin(115200); // Start the serial console
 
   // Wait for user to press key to begin
-  Serial.println(F("SARA-R5 Example"));
+  Serial.println(F("SARA-R5 Ping Example"));
   Serial.println(F("Press any key to begin"));
   
   while (!Serial.available()) // Wait for the user to press a key (send any serial character)
@@ -84,7 +84,7 @@ void setup()
   while (Serial.available()) // Empty the serial RX buffer
     Serial.read();
 
-  //mySARA.enableDebugging(); // Uncomment this line to enable helpful debug messages on Serial
+  mySARA.enableDebugging(); // Uncomment this line to enable helpful debug messages on Serial
 
   // For the MicroMod Asset Tracker, we need to invert the power pin so it pulls high instead of low
   // Comment the next line if required
